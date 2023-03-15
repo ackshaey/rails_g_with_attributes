@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_g_with_attributes (1.0.2)
+    rails_g_with_attributes (1.0.3)
       rails (>= 5.0.0)
 
 GEM
