@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = "rails_g_with_attributes"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.authors = ["Ackshaey Singh"]
   spec.email = ["ackshaey@gmail.com"]
   spec.summary = %q{Patches rails g to accept a --with_attributes options, used for the `rails g scaffold_controller` generator}
