@@ -10,6 +10,16 @@ gem monkey patches `Rails::Generators::NamedBase` to looks for the the `--with_a
 include the model fields automatically for the invoked generator. I haven't tested this for generators other than
 `scaffold_controller`, so use at your own risk for anything else.
 
+## Installation
+Add the following to your Gemfile:
+
+```ruby
+group :development do
+  # ...
+  gem 'rails_g_with_attributes'
+  # ...
+end
+```
 ## Publishing
 1. Update the version in `rails_g_with_attributes.gemspec`
 2. Generate a new version with `gem build rails_g_with_attributes.gemspec`
