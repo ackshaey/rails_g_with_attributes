@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = "rails_g_with_attributes"
-  spec.version = "0.0.1"
+  spec.version = "1.0.0"
   spec.authors = ["Ackshaey Singh"]
   spec.email = ["ackshaey@gmail.com"]
   spec.summary = %q{Patches rails g to accept a --with_attributes options, used for the \
@@ -9,7 +9,6 @@ Gem::Specification.new do |spec|
 accept a --with_attributes option. The --with_attributes option is used to read model attributes if \
 none are specified on the command line. This is a way to simplify the process of generating code by automatically \
 including all of the attributes of the model when generating controller actions and views.}
-  spec.homepage = ""
   spec.license = "MIT"
   spec.homepage    = "https://rubygems.org/gems/rails_g_with_attributes"
   spec.files = Dir["lib/**/*"]
