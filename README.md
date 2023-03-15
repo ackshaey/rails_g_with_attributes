@@ -1,4 +1,4 @@
-# Rails G With Attributes
+# [rails_g_with_attributes RubyGem](https://rubygems.org/gems/rails_g_with_attributes)
 
 ## Overview
 
