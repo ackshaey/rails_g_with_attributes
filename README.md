@@ -20,6 +20,16 @@ group :development do
   # ...
 end
 ```
+
+## Usage
+Append the `--with-attributes` option to the `rails g scaffold_controller` command. For example:
+
+```bash
+rails g scaffold_controller Admin::Users --model-name=User --with-attributes`
+```
+will generate the namespaced controller and views for the `User` model, including the form fields for the model's
+attributes.
+
 ## Publishing
 1. Update the version in `rails_g_with_attributes.gemspec`
 2. Generate a new version with `gem build rails_g_with_attributes.gemspec`
